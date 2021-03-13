@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  padding: 100px 50px;
+  background: var(--darkBlue) url("../images/backgroundPhoto.png") no-repeat;
+  background-size: 100%;
+}
+
+// weight 800 font for headers

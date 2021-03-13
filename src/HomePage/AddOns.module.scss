@@ -1,0 +1,95 @@
+.header {
+  text-transform: uppercase;
+  color: var(--orange);
+  font-size: 50px;
+}
+
+.cardsWrapper {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border: 1px solid white;
+  width: 250px;
+  padding: 30px;
+  h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: var(--paragraphFontSize);
+  }
+}
+
+.imgWrapper {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+  span {
+    margin-left: 20px;
+    font-size: var(--paragraphFontSize);
+    letter-spacing: 2px;
+  }
+}
+
+.list {
+  padding-left: 20px;
+  font-size: var(--paragraphFontSize);
+}
+
+.button {
+  background-color: var(--orange);
+  color: var(--darkBlue);
+  padding: 9px 30px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: var(--paragraphFontSize);
+  border: transparent;
+  cursor: pointer;
+  outline: #da6538;
+}
+
+.bulkCard {
+  color: var(--darkBlue);
+  border: 1px solid white;
+  background-color: white;
+  width: 250px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  letter-spacing: 2;
+
+  div {
+    h2 {
+      text-transform: uppercase;
+      font-size: 35px;
+      margin-top: 0;
+      letter-spacing: 2;
+    }
+
+    p {
+      font-size: var(--paragraphFontSize);
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.emailButton {
+  background-color: var(--darkBlue);
+  color: white;
+  padding: 9px 25px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: var(--paragraphFontSize);
+  border: transparent;
+  cursor: pointer;
+}
