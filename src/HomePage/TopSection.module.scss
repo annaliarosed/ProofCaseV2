@@ -13,8 +13,8 @@
 }
 
 .wrapper {
-  color: white;
-  border-right: 3px solid white;
+  color: var(--offWhite);
+  border-right: 3px solid var(--offWhite);
   p {
     width: 600px;
     font-size: var(--paragraphFontSize);
