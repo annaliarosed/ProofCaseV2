@@ -7,8 +7,16 @@ body {
 
 .container {
   padding: 100px 50px;
-  background: var(--darkBlue) url("../images/backgroundPhoto.png") no-repeat;
-  background-size: 100%;
-}
 
-// weight 800 font for headers
+  .backgroundPhoto {
+    background-color: var(--darkBlue);
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

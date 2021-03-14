@@ -3,6 +3,10 @@
   grid-template-columns: 400px 680px;
   justify-content: space-between;
   margin: 20px 20px;
+
+  img {
+    justify-self: center;
+  }
 }
 
 .logo {
