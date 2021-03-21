@@ -4,13 +4,6 @@
   margin-top: 70px;
 }
 
-@media only screen and (max-width: 900px) {
-  .container {
-    grid-template-columns: min-content 1fr;
-    margin-top: 100px;
-  }
-}
-
 .columnOne {
   padding-right: 60px;
 
@@ -55,4 +48,22 @@
   font-size: var(--paragraphFontSize);
   border: transparent;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    grid-template-columns: min-content 1fr;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .eventsContainer {
+    border-left: none;
+    padding: 0;
+  }
 }
