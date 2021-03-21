@@ -5,11 +5,11 @@ import styles from "./TopSection.module.scss";
 
 const TopSection = () => (
   <div className={styles.container}>
-    <img src={logo} alt="logo" />
+    <img src={logo} alt="logo" className={styles.logo} />
     <section className={styles.wrapper}>
       <img src={suitcase} alt="suitcase" />
+      <h1 className={styles.header}>Connoisseur's travel kit</h1>
       <div className={styles.text}>
-        <h1 className={styles.header}>Connoisseur's travel kit</h1>
         <p>
           For too long, connoisseurs wishing to have a proper pour of
           top-quality bourbon, whiskey, armagnac, brandy, rum, tequila or

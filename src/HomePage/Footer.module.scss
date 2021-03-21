@@ -6,3 +6,9 @@
   justify-items: center;
   margin-top: 115px;
 }
+
+@media only screen and (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+}
