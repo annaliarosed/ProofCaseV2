@@ -7,7 +7,7 @@ const TopSection = () => (
   <div className={styles.container}>
     <img src={logo} alt="logo" />
     <section className={styles.wrapper}>
-      <img src={suitcase} alt="suitcase" className={styles.logo} />
+      <img src={suitcase} alt="suitcase" />
       <h1 className={styles.header}>Connoisseur's travel kit</h1>
       <p>
         For too long, connoisseurs wishing to have a proper pour of top-quality
